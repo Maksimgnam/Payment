@@ -25,7 +25,7 @@ const Popup = () => {
         setInputVal(inputVal + 1000)
     }
     const ThankYou = () => {
-        alert('Thank you for ' + sum)
+        alert('Thank you for ' + inputVal)
     }
     const Inp = (e) => {
         setInputVal(e.target.value)
