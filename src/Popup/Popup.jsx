@@ -19,6 +19,9 @@ const Popup = () => {
     const addThousand = () => {
         setSum(sum + 1000)
     }
+    const ThankYou = () => {
+        alert('Thank you for ' + sum)
+    }
     return (
         <>
             {
@@ -38,7 +41,7 @@ const Popup = () => {
                             <button onClick={addThousand}>1000</button>
                         </div>
                         <input type="text" name="" id="" placeholder='name' />
-                        <button className='btn'>Pay</button>
+                        <button className='btn' onClick={ThankYou}>Pay</button>
                         <button className='btn'>Apple Pay</button>
                         <button className='btn'><span className='g'>G</span><span className='o'>o</span><span className='o2'>o</span><span className='g2'>g</span><span className='l'>l</span><span className='e'>e</span> Pay</button>
                     </div>

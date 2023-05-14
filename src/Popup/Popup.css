@@ -69,6 +69,7 @@ button {
     border-radius: 10px;
     font-size: 17px;
     color: black;
+    transition: 1s;
 
 
 
@@ -76,6 +77,8 @@ button {
 
 button:hover {
     box-shadow: 0 0 30px #ccc;
+    background-color: yellow;
+    color: blue;
 
 }
 
@@ -99,6 +102,11 @@ input {
     position: relative;
     top: -15px;
     font-size: 17px;
+    color: black;
+}
+
+.btn:hover {
+    background-color: white;
     color: black;
 }
 
